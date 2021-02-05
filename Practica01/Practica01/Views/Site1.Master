@@ -7,12 +7,31 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="Ejercicio01.aspx">Ejercicio 01</a>
+                    <a class="nav-link" href="Ejercicio02.aspx">Ejercicio 02</a>
+                    <a class="nav-link" href="Ejercicio03.aspx">Ejercicio 03</a>
+                    <a class="nav-link" href="Ejercicio04.aspx">Ejercicio 04</a>
+                    <a class="nav-link" href="Ejercicio05.aspx">Ejercicio 05</a>
+                    <a class="nav-link" href="Ejercicio06.aspx">Ejercicio 06</a>
+                    <a class="nav-link" href="Ejercicio07.aspx">Ejercicio 07</a>
+                    <a class="nav-link" href="Ejercicio08.aspx">Ejercicio 08</a>
+                    <a class="nav-link" href="Ejercicio09.aspx">Ejercicio 09</a>
+                    <a class="nav-link" href="Ejercicio10.aspx">Ejercicio 10</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br />
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
     </form>

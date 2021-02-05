@@ -11,7 +11,7 @@ namespace Practica01.Views
 {
 
 
-    public partial class Ejercicio01
+    public partial class Ejercicio07
     {
 
         /// <summary>
@@ -24,30 +24,30 @@ namespace Practica01.Views
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// pulgadas control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pulgadas;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// btnConvertir control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConvertir;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Respuesta control.
+        /// Label11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Respuesta;
+        protected global::System.Web.UI.WebControls.Label Label11;
     }
 }

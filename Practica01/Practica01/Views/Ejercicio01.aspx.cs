@@ -13,5 +13,18 @@ namespace Practica01.Views
         {
 
         }
+
+        protected void btnConvertir_Click(object sender, EventArgs e)
+        {
+            double pulgadas;
+            var conver = double.TryParse(this.pulgadas.Text, out pulgadas);
+            if (!conver)
+            {
+                this.Respuesta.Text = "Ocurrio un problema al convertir, asegurese que el valor en el textbox sean numeros y no este vacio";
+                return;
+            }
+            double conversion = pulgadas * 2.54;
+            this.Respuesta.Text= pulgadas + " plg equivale a " + conversion + " cm";
+        }
     }
 }
