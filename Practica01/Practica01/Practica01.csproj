@@ -79,6 +79,8 @@
     <Content Include="Views\Ejercicio08.aspx" />
     <Content Include="Views\Ejercicio09.aspx" />
     <Content Include="Views\Ejercicio10.aspx" />
+    <Content Include="Views\EjercicioExtr.aspx" />
+    <Content Include="Views\Respuesta.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +154,20 @@
     </Compile>
     <Compile Include="Views\Ejercicio10.aspx.designer.cs">
       <DependentUpon>Ejercicio10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EjercicioExtr.aspx.cs">
+      <DependentUpon>EjercicioExtr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\EjercicioExtr.aspx.designer.cs">
+      <DependentUpon>EjercicioExtr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Respuesta.aspx.cs">
+      <DependentUpon>Respuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Respuesta.aspx.designer.cs">
+      <DependentUpon>Respuesta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <asp:Label ID="Label1" runat="server" CssClass="col-4" Text="Fecha Nacimiento"></asp:Label>
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Calendar ID="Calendar1" runat="server" SelectedDate="1970-10-17"></asp:Calendar>
         </div>
         <br />
         <div class="row">

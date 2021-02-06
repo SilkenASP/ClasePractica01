@@ -87,6 +87,15 @@ namespace Practica01.Views
         protected global::System.Web.UI.WebControls.Button btnDividir;
 
         /// <summary>
+        /// btnSumar2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSumar2;
+
+        /// <summary>
         /// Label11 control.
         /// </summary>
         /// <remarks>

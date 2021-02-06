@@ -11,9 +11,9 @@
         <br />
         <div class="row">
             <p class="col-4"></p>
-            <asp:Button ID="Button1" CssClass="btn-success col-4" runat="server" Text="Calcular promedio" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" CssClass="btn-success col-4" runat="server" Text="Calcular impuesto" OnClick="Button1_Click" />
             <p class="col-4"></p>
         </div>
-        <asp:Label ID="Label11" runat="server" CssClass="" Text="Promedio = "></asp:Label>
+        <asp:Label ID="Label11" runat="server" CssClass="" Text="El impuesto local a pagar es: $ = "></asp:Label>
     </div>
 </asp:Content>

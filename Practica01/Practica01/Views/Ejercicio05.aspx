@@ -19,6 +19,7 @@
             <asp:Button ID="btnRestar" CssClass="btn-success col-2 m-1" runat="server" Text="Restar" OnClick="Button1_Click" />
             <asp:Button ID="btnMultiplicar" CssClass="btn-success col-2 m-1" runat="server" Text="Multiplicar" OnClick="Button1_Click" />
             <asp:Button ID="btnDividir" CssClass="btn-success col-2 m-1" runat="server" Text="Dividir" OnClick="Button1_Click" />
+            <asp:Button ID="btnSumar2" CssClass="btn-success col-2 m-1" runat="server" Text="Sumar2" OnClick="Button1_Click" />
         </div>
         <asp:Label ID="Label11" runat="server" CssClass="" Text=""></asp:Label>
     </div>

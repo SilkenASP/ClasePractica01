@@ -52,8 +52,17 @@ namespace Practica01.Views
                 resultado = valor1 / valor2;
                 operacion = " / ";
             }
+            else if (nombre.Equals("btnSumar2"))
+            {
+                Response.Redirect("Respuesta.aspx?valor1="+valor1+"&valor2="+valor2);
+            }
             this.Label11.CssClass = "";
             this.Label11.Text = valor1.ToString() + operacion + valor2.ToString() + " = " + resultado.ToString();
+        }
+
+        protected void btnSumar2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
