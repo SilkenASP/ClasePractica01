@@ -28,7 +28,7 @@ namespace Practica01.UserControl
                 this.lblError.Text = "El numero de tarjeta no puede ir vacio";
                 return;
             }
-            int month = this.ListBox1.SelectedIndex+1;
+            int month = this.DropDownList1.SelectedIndex+1;
             int year = int.Parse(this.TextBox1.Text);
             DateTime fechaVencimiento = new DateTime(year,month,DateTime.Now.Day);
 
